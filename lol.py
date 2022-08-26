@@ -1,17 +1,3 @@
-# from bs4 import BeautifulSoup
-# import requests
-#
-# url = 'https://hidemy.name/ru/proxy-list/'
-# proxies = []
-# page = requests.get(url)
-# soup = BeautifulSoup(page.text, "html.parser")
-# print(soup)
-# trs = soup.findAll('tr')
-# print(trs)
-# for i in trs:
-#     a = [i.findAll('td')]
-#     proxies.append(a[0].text + ':' + a[1].text)
-# print(proxies)
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
